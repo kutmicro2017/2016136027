@@ -312,7 +312,7 @@ void printSignalMatrix(int num) { //정지(0)인지 통행 가능(1)인지 아�
       if (signImage[num][r][c]) digitalWrite(drowSignalCol[c], LOW);
     }
     delay(1);
-    CleanMatrix();
+    CleanSignalMatrix();
   }
 }
 
